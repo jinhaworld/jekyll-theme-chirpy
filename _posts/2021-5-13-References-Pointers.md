@@ -1,10 +1,10 @@
 ---
 title: References & Pointers
-categories: [Computer Science, References & Pointers]
-tags: [TAG]     # TAG names should always be lowercase
+categories: [Computer Science, C++, References & Pointers]
+tags: [syntax]     # TAG names should always be lowercase
 ---
 
->References and pointers serve a similar purpose; however, they have significant differences in syntax. 
+> References and pointers have similar purposes.
 
 ``` c++
 int i; 
@@ -40,18 +40,17 @@ An iterator is a pointer (not a reference, otherwise it wouldn't be able to trav
 used to traverse from one element to another (in arrays / strings / etc). 
 
 string::iterator is a type of iterator to traverse a string by pointing at each char 
-so we can *(string::iterator variable) to return a char 
-and if we increment the iterator, it will point to the next char. 
+so we can use *(string::iterator "var") to return a char, and if we increment the iterator, it will point to the next char. 
 
 ---
 
-For instance, in a problem, the first taken parameter for the function is a string::iterator& it; this means it is a reference to the string::iterator it. 
+For instance, if for a function, the first taken parameter for a function is a string::iterator& it, the parameter is a reference to the string::iterator it. 
 
 We can refer to the iterator just as it, as references by definition can be called in this way. Then, we can *(it++) to use it's functionality as an iterator/pointer for a char of the string
 and then use again one of the properties of a pointer of being able to 
 point to another object unlike a reference (by incrementing, in this case). 
 
-> A function that takes in reference to a pointer 
+> A simple function that takes in reference to a pointer 
 
 ```c++
 // takes in reference to a pointer like the problem 
