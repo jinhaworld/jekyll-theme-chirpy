@@ -97,16 +97,16 @@ the _config.yml file for the variables
 
 and so on. The file is pretty self-explanatory with comments that you can use to guide yourself on what information you can replace each default value with. Note that unless you are relatively comfortable with jekyll, it's recommended to change only the variables storing your personal information. 
 
-You can also edit your the files in the _tabs folder, where, for instance, the about.md file would be the page you will see when you click on *about* on the left column. Try writing and testing different files and seeing which part changes to accustom yourself. 
+You can also edit the files in the _tabs folder, where, for instance, the about.md file would be the page you will see when you click on *about* on the left column. Try writing and testing different files and seeing which part changes to get accustomed. 
 
 Everytime you make a change and reload [http://127.0.0.1:4000/](http://127.0.0.1:4000/), you 
-will be able to see the according change made. 
+will be able to see the according changes made. 
 
 ## <span style="color: blue;">  8. Hosting on GitHub pages </span> 
 
 Hosting on GitHub pages is mildly annoying for the jekyll-theme-chirpy, but not too unreasonable. As listed in the directions under Deployment in the README.MD, first modify 
 your repository name in GitHub to the url that you want it to have. For instance, 
-if you are creating a person website, replace the name to  
+if you are creating a personal website, replace the name to  
 
 > username.github.io 
 
@@ -117,13 +117,13 @@ If you host this repo with GitHub pages, then your link will be
 Now try commiting to your repository by entering the following commands.  
 
 ``` 
-$ git add. 
+$ git add . 
 $ git commit -m “commit message" 
 $ git push origin master 
 ``` 
 
 After you do so, go to the *Settings* of your repo (top right) and to *Options* and to 
-pages. There, if you ran successfully 
+*pages*. There, if you ran successfully 
 
 > $ bash tools/init.sh 
 
@@ -131,7 +131,7 @@ then you should see a branch called gh-pages.
 
 ![GitHub](/../assets/img/posts/jekyll_website_4.png) 
 
-It is necessary to use gh-pages not master as the branch to host the website due to GitHub's security policies. You can also run the above command to check whether it was done successfully, as if it has been, nothing additional will be done while if it hasn't been, it will process (which will delete your posts). That is why ideally you should have ran it before editing your details.
+It is necessary to use gh-pages not master as the branch to host the website due to GitHub's security policies. You can also run the above command to check whether it was done successfully, as if it has been, nothing additional will be done while if it hasn't been, it will process (which will delete your posts). That is why ideally you should have ran it before editing.
 
 Also note that it takes a decent amount of time sometimes for the commit / initialization to successfully run through. You can check their status by clicking on the actions, but don't be impatient if your gh-pages doesn't appear (it may just take some time).
 
