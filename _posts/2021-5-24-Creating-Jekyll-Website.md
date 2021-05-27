@@ -7,7 +7,7 @@ tags: [website]     # TAG names should always be lowercase
 Jekyll is commonly used for creating static websites due to its efficiency and utility, and there are plenty of Jekyll templates available
 on GitHub that you can simply fork and edit. In fact, this website was also created using the jekyll-theme-chirpy, one of the more popular themes for building a blog; however, that is not to say that there were some complexities with using this template, especially with hosting on GitHub pages. 
 
-## <span style="color: blue;">  1. Setting up your environment </span> 
+## 1. Setting up your environment
 > Download [ruby](https://jekyllrb.com/docs/installation/) 
 
 - Mac  
@@ -22,7 +22,7 @@ You can either download from [ruby installer](https://rubyinstaller.org/)
 or use git bash as your workspace. 
 
 
-## <span style="color: blue;">  2. Choose jekyll template </span> 
+## 2. Choose jekyll template 
 
 Go to [https://jekyllthemes.io/](https://jekyllthemes.io/) to choose a theme of interest 
 by checking out the provided demos. 
@@ -31,7 +31,7 @@ You can alternatively visit [http://jekyllthemes.org/](http://jekyllthemes.org/)
 
 For the purpose of this tutorial, we will be using the [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy).
 
-## <span style="color: blue;">  3. Fork the GitHub Repository </span>
+## 3. Fork the GitHub Repository 
 
 After you go into the GitHub repo via the link provided with the templates, 
 you will be able to see the fork button, which if you click, it will automatically add the repo into your GitHub.  
@@ -42,7 +42,7 @@ Fork is at the top right.
 
 ![GitHub](/../assets/img/posts/jekyll_website_2.png)  
 
-## <span style="color: blue;">  4. Git clone </span>
+## 4. Git clone 
 
 Enter the local directory that you want your file to be in and using the url of your repo, replace the username with yours. 
 
@@ -50,7 +50,7 @@ Enter the local directory that you want your file to be in and using the url of 
 
 This will create a copy locally. 
 
-## <span style="color: blue;">  5. Directions for Initialization in README.MD </span> 
+## 5. Directions for Initialization in README.MD 
 
 Every jekyll template has different instructions listed in their README.MD 
 jekyll-theme-chirpy requires you to first enter your directory and enter the following commands
@@ -59,7 +59,7 @@ jekyll-theme-chirpy requires you to first enter your directory and enter the fol
 
 > $ bash tools/init.sh // initialization 
 
-## <span style="color: blue;">  6. Running Jekyll Website locally </span> 
+## 6. Running Jekyll Website locally 
 
 Later on, before you make your edits, you can run the jekyll website locally by 
 entering the command 
@@ -72,7 +72,7 @@ which will return a window like
 
 You can then access your website by visiting [http://127.0.0.1:4000/](http://127.0.0.1:4000/) 
 
-## <span style="color: blue;">  7. Personalize the Website </span> 
+## 7. Personalize the Website  
 
 Jekyll templates are great in that in the _posts folder, if you just create a file in the format of date-title.md (e.g. 2021-5-24-Creating-Jekyll-Website.md) and 
 paste in a template 
@@ -102,7 +102,7 @@ You can also edit the files in the _tabs folder, where, for instance, the about.
 Everytime you make a change and reload [http://127.0.0.1:4000/](http://127.0.0.1:4000/), you 
 will be able to see the according changes made. 
 
-## <span style="color: blue;">  8. Hosting on GitHub pages </span> 
+## 8. Hosting on GitHub pages 
 
 Hosting on GitHub pages is mildly annoying for the jekyll-theme-chirpy, but not too unreasonable. As listed in the directions under Deployment in the README.MD, first modify 
 your repository name in GitHub to the url that you want it to have. For instance, 
@@ -141,7 +141,7 @@ Click save and after around 10 - 20 minutes, you will be able to click the link 
 
 > It appears so that it takes quite a bit of time sometimes for the website to update. It is recommended to make small commits at a time if you want to see your changes made almost immediately. 
 
-## <span style="color: blue;">  9. Using Google Search Control </span> 
+## 9. Using Google Search Control 
 
 Your website is now completely built, but if you additionally want to make it searchable on google, you will need to use the google search control tool, verify, and then go through their setting up process. There will be a future post on how to do the following. 
 
