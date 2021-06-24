@@ -21,7 +21,7 @@ Hey. Yes you, who strolled into my website :) I only can wonder how (it's quite 
 
 I was born in Masschusetts on December 31st, 2003 with one issue, that being the 13-hour time difference between Korea and America. So, I got my Korean passport (parents are korean citizen), and it says that I was born on January 1st, 2004. By all means, being born in two different years isn't the sort of thing you can see too often. I mean a typical Korean / American dual citizen would have an age difference of 1, it differs by 2 for me. 
 
-I actually had to think for quite a bit to come up with that trivia. It's not easy as it seems to try coming up with things about yourself that will interest others :p 
+I actually had to think for quite a bit to come up with that trivia. It's not as easy as it seems to try coming up with things about yourself that will interest others :p 
 
 Thus, *cogito.* 
 
@@ -31,7 +31,7 @@ My passion lies in math and computer science. I would say that I am pretty satis
 
 As with all things, with more time spent attempting to accept any such cognitive bias, I found myself having become relatively decent in competitive programming. Becoming used to algorithmic reasoning such as loop-invariants to prove correctness and encountering applications, for instance, network flow in software, cs to this day interests me. 
 
-$\exists{\textrm{human}} $ s.t. $\notin \textrm{humans}$. 
+$\exists{\textrm{human}} \notin \textrm{humans}$. 
 
 No worries though, I am full of surprises?  
 
