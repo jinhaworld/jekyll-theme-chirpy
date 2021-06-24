@@ -3,7 +3,7 @@ title: Intermediate Graph Theory
 categories: [Computer Science, Graph Theory]
 tags: [algorithms]     # TAG names should always be lowercase
 --- 
-This is a guide that I made a while ago for graph theory. It doesn't include any algorithms (will have another post on it) but more of rigorous definitions and properties of different types of graphs. It will likely be updated & improved in the future. Please also note that this post does not necessarily deal with competitive programming. 
+This is a guide that I made a while ago for graph theory. It doesn't include any algorithms (will have another post on it) but more of formal definitions and properties of different types of graphs. It will likely be updated & improved in the future. Please also note that this post does not necessarily deal with cp. 
 
 # Core Terminology 
 
@@ -40,9 +40,9 @@ The maximum number of edges for a directed graph $G(V,E)$ (more specifically, a 
 
 $$ Max_{directed} = 2 \cdot { {\mid x \mid} \choose {2}} = \frac{2 \cdot \mid V \mid \cdot (\mid V \mid - 1)}{2} = 2 \cdot Max_{undirected}(V) $$. 
 
-This is true as well as a directed multigraph allows multiple / parallel/edges. Thus, we can simply multiple 2 to the value of the maximum number of edges in an undirected graph by creating two multiple edges for the end-vertices of each edge. 
+This is true as well as a directed multigraph allows multiple / parallel edges. Thus, we can simply multiply 2 to the value of the maximum number of edges in an undirected graph by creating two multiple edges for the end-vertices of each edge. 
 
-Similar to the physical definition of density as $\frac{\textrm{mass}}{\textrm{volume}}$, the density of a graph $G(V, E)$ can be similarity defined as $\frac{\textrm{tot num of edges}}{maximum number of edges}$. Note that by definition, the density is $\leq 1$. 
+The density of a graph $G(V, E)$ can be defined as $\frac{\textrm{tot num of edges}}{\textrm{maximum number of edges}}$. Note that by definition, the density is $\leq 1$. 
 
 The density for an undirected graph $G(V, E)$ is 
 $$  D_{undirected}(V, E) = \dfrac{\mid E \mid}{Max_{undireccted}(V)}  = \frac{\mid E \mid}{\frac{\mid V \mid \cdot (\mid V \mid -1)}{2}} = \frac {2 \cdot \mid E \mid}{\mid V \mid \cdot (\mid V \mid -1)}$$ 
@@ -58,7 +58,7 @@ A graph that has a density is lesser than a half is sparse while a graph that ha
 
 # Cut in Graph Theory 
 
-Verbatim, a cut for a graph $G(V,E)$ is a partition of $V$ into two disjoint subsets, two sets with no elements in common. A cut $X$ is a proper subset of $V$, $X \neq \emptyset$, $X \subset V$. 
+A cut for a graph $G(V,E)$ is a partition of $V$ into two disjoint subsets, two sets with no elements in common. A cut $X$ is a proper subset of $V$, $X \neq \emptyset$, $X \subset V$. 
 
 A cut-set, created by a cut, is the set of $E$ where one of its end-vertices are in each partition. Such edges are also noted to cross the cut. 
 

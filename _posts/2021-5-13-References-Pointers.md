@@ -4,7 +4,7 @@ categories: [Computer Science, C++, References & Pointers]
 tags: [syntax]     # TAG names should always be lowercase
 ---
 
-> References and pointers have similar purposes.
+The purpose of this post is to make a clear distinction between references and pointers. 
 
 ``` c++
 int i; 

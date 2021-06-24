@@ -33,9 +33,9 @@ But I shall not chatter.
 
 
 
-Birth. 
+Birth, 
 
-Love.
+Love, 
 
 Rebirth.
 
@@ -49,7 +49,7 @@ Face I shall the shade.
 
 As keeper of my fate. 
 
-Loving, fighting, standing unafraid. 
+Loving, standing unafraid. 
 
 
 
