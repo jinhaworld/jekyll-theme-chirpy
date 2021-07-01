@@ -4,37 +4,35 @@ categories: [Computer Science, C++, References & Pointers]
 tags: [syntax]     # TAG names should always be lowercase
 ---
 
-The purpose of this post is to make a clear distinction between references and pointers. 
+The purpose of this post is to make a clear distinction between references and pointers. Although this distinction may appear trivial, lots of code in c++ have mistakenly interchanged them. 
 
 ``` c++
 int i; 
-int *pi = &i; 
-// the adress of pi is set as the adress of i 
+int *pi = &i;  
+// The adress of pi is set as the adress of i 
 
 int i; 
 int &ri = i; 
-// the adress of ri is set as the adress of i 
+// The adress of ri is set as the adress of i 
 
-//to retrieve
+// To retrieve
 cout << *pi 
-cout << ri; // this is why functions that take in string& s can just directly use s within it
+cout << ri; 
+// This is why functions that take in string& s can just directly use s within it
 
-//to modify: 
-*pi = 4; 
-ri = 4; ri++; //(etc.)
+// To modify: 
+*pi = 4; ri = 4; 
+ri++; pi++; 
+// Pointers can increment to the next address (to another object)
 
-//but pointers can increment to the next address (to another object)
-pi++
-
-//a pointer can point to many different objects
-//a reference can only point to one object during its lifetime
-(e.g.)
+// A pointer can point to many different objects
+// A reference can only point to one object during its lifetime 
 int a = 2;
 int b = 4;
 int &ref = a;
 // ref can never refer to b by design; it can only refer to a
 ```
----
+--- 
 
 An iterator is a pointer (not a reference, otherwise it wouldn't be able to traverse) 
 used to traverse from one element to another (in arrays / strings / etc). 

@@ -1,5 +1,5 @@
 ---
-title: Poem of Life
+title: The Plow  
 categories: [Writing, Poems]
 tags: [poems]  
 --- 
@@ -10,14 +10,14 @@ So short from drop to drop.
 
 Life trickles as an unconquerable goal,
 
-To only disappear at the top. 
+To only cease at the top. 
 
 
 To be or not to be. 
 
 It matters not why but how. 
 
-Matters it only to me. 
+Matters it only to be, 
 
 But stand, we must against the plow. 
 
@@ -25,11 +25,11 @@ But stand, we must against the plow.
 
 Its chains shall not shackle,
 
-For I stand for what matters. 
+For he dies for what matters, 
 
 He may crackle, 
 
-But I shall not chatter. 
+But he shall not chatter. 
 
 
 
@@ -41,24 +41,26 @@ Rebirth.
 
 
 
-Stand above. 
+Stand above, 
 
 Till trembling at the gate. 
 
-Face I shall the shade.
+Face he shall the fade,
 
-As keeper of my fate. 
+As keeper of his fate, 
 
-Loving, standing unafraid. 
+Loving unafraid. 
 
 
 
-Eyes of wisdom is my proof. 
+Eyes of wisdom shall be proof. 
 
-Act I will. 
+Act we will. 
 
-Ears shall be my disproof. 
+Ears of bane shall be disproof. 
 
-Live I will, for and only for my will. 
+Live we will. 
 
-```
+``` 
+
+> The Plow (May 22, 2021) 

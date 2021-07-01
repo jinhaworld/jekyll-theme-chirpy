@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 # --------------------------
 title: Jinha Kim                        # the main title
 
-tagline: A quirky individual like you!   # it will display as the sub-title
+tagline: Dubito, ergo cogito, ergo sum   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -25,7 +25,7 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://jinhaworld.github.io'
+url: 'https://phi-jkim.github.io'
 
 github:
   username: jinhaworld              # change to your github username
@@ -41,7 +41,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/JinhaKim12      # change to your twitter homepage
-    - https://github.com/jinhaworld     # change to your github homepage
+    - https://github.com/phi-jkim     # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

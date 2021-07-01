@@ -7,7 +7,7 @@ This is a guide that I made a while ago for graph theory. It doesn't include any
 
 # Core Terminology 
 
-A graph $G$ is defined as a pair of sets $(V, E, \phi)$ where $E$ is the set of edges, $V$ is the set of nodes, and $\phi$ is a mapping from $E \rightarrow V \times V$. Note that the mapping $\phi$ is known as the incidence function, mapping an edge into a pair of vertices (end-vertices of an edge). However, it is common for a graph to be defined just as $(V, E)$. 
+A graph $G$ is defined as a pair of sets $(V, E, \phi)$ where $E$ is the set of edges, $V$ is the set of nodes, and $\phi$ is a mapping from $E \rightarrow V \times V$. Note that the mapping $\phi$ is the incidence function, mapping an edge into a pair of vertices (end-vertices of an edge). However, it is common for a graph to be defined just as $(V, E)$. 
 
 We refer to the graph's edges as $E(G)$ and vertices as $V(G)$ while their orders are respectively $\mid E(G) \mid$ and $\mid V(G) \mid$. 
 
