@@ -5,6 +5,8 @@ order: 4
 ---
 ## Jinha Kim 
 
+### CS, Math @ MIT 
+
 “Dubito, ergo cogito, ergo sum" - Rene Descartes 
 
 > Dubito
