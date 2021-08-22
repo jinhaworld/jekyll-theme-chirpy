@@ -84,7 +84,7 @@ Equations may include notation(s) as in $\Theta(n^2) + 3n^2 + 3n + 1 = \Theta(n^
 
 Does $\omega(n^2) + 3n + 1 = \Theta(n^2)$ hold true? If not, why? 
 
-# Master's Theorem 
+# Master Theorem 
 
 For recurrence $T(n) = aT(n/b) + f(n)$ for function $f(n)$,$1 \leq a$ and $ 1 < b$, where $n/b$ is either $\lceil n/b \rceil$ or $\lfloor n/b \rfloor$ (for $n/b$ to be an integer), 
 
@@ -96,10 +96,10 @@ For recurrence $T(n) = aT(n/b) + f(n)$ for function $f(n)$,$1 \leq a$ and $ 1 < 
 
 > Note that T(n) must be monotone while f(n) must be a polynomial. 
 
-There are various methods of calculating the asymptotic time complexity of recursive algorithms, yet given that the function falls under the three categories, the master's theorem is the most efficient. If it does not fall under any of the three, we must use the substitution method of choosing a reasonable approximation and proving that it is correct. Additionally, we can attempt to use a recursive tree, which is, of course, more laborious. 
+There are various methods of calculating the asymptotic time complexity of recursive algorithms, yet given that the function falls under the three categories, the Master Theorem is the most efficient. If it does not fall under any of the three, we must use the substitution method of choosing a reasonable approximation and proving that it is correct. Additionally, we can attempt to use a recursive tree, which is, of course, more laborious. 
 
-# Proof of Master's Theorem 
-Most books, including CLRS, will often first consider the specific case of when $n = b^k$ for some integer $k$. If n is a perfect power of b, the proof of master's theorem becomes much simpler as every $n/b$ will be an integer. However, here we will exclude that proof as it is unnecessary and instead will provide a complete proof for both when the recurrence relation is $T(n) = aT(\lceil n/b \rceil) + f(n)$ and $T(n) = aT(\lfloor n/b \rfloor) + f(n)$. 
+# Proof of Master Theorem 
+Most books, including CLRS, will often first consider the specific case of when $n = b^k$ for some integer $k$. If n is a perfect power of b, the proof of Master Theorem becomes much simpler as every $n/b$ will be an integer. However, here we will exclude that proof as it is unnecessary and instead will provide a complete proof for both when the recurrence relation is $T(n) = aT(\lceil n/b \rceil) + f(n)$ and $T(n) = aT(\lfloor n/b \rfloor) + f(n)$. 
 
 When I read through CLRS, my first impression of its proof was that the proof was incomplete. It only considered the case of when $T(n) = aT(\lceil n/b \rceil) + f(n)$ and proved its upper bound, not its lower bound. It also did not prove the upper & lower bound of $T(n) = aT(\lfloor n/b \rfloor) + f(n)$. 
 
