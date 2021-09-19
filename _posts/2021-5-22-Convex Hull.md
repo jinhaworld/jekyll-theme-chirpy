@@ -1,9 +1,12 @@
 ---
-title: The Plow  
+# title: The Plow  
+title: Convex Hull 
 categories: [Writing, Poems]
 tags: [poems]  
 --- 
-```
+<!-- ```
+Title: Poem-of-life
+
 So far from pole to pole.
 
 So short from drop to drop. 
@@ -63,4 +66,4 @@ Live we will.
 
 ``` 
 
-> The Plow (May 22, 2021) 
+> The Plow (May 22, 2021)  -->
