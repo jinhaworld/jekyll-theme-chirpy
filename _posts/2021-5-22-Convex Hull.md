@@ -1,11 +1,10 @@
 ---
-# title: The Plow  
-title: Convex Hull 
+title: A Poem 
+# title: Convex Hull 
 categories: [Writing, Poems]
 tags: [poems]  
 --- 
-<!-- ```
-Title: Poem-of-life
+```
 
 So far from pole to pole.
 
@@ -65,5 +64,3 @@ Ears of bane shall be disproof.
 Live we will. 
 
 ``` 
-
-> The Plow (May 22, 2021)  -->
