@@ -31,7 +31,7 @@ Thus, *cogito.*
 
 > Sum 
 
-My passion lies in math and computer science. I would say that I am satisfied to have gone as far as I have over a short span of time, especially in competitive programming. 
+My passion lies in math and computer science. I would say that I am satisfied to have gone as far as I have over a short span of time. 
 
 <!-- where I really was so bad that I had to sink into utter misery everytime I looked at my code. It is interesting to note that I seem to be a victim of the initial stages of the dunning-kruger effect but from right to left, not left to right. As with all things, with more time spent attempting to accept any such cognitive bias, I found myself having become quite decent in competitive programming.  --> 
 
