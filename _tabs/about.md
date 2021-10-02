@@ -26,7 +26,7 @@ It feels very nice to think that someone is actually reading this. It's most lik
 
 I guess it's similar to how you expect to learn about someone after reading their blogs, and as the writer, conversely, you expect the readers to want to learn about yourself. 
 
-Clearly, as you can tell, I've been bored and probably would have been for a while :) but I think that's going to change soon (I think). 
+Clearly, as you can tell, I've been bored and probably for a while :) 
 
 ༼ つ ◕_◕ ༽つ
 
