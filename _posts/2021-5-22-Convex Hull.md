@@ -1,10 +1,13 @@
 ---
-title: A Poem 
+title: Convex Hull
 # title: Convex Hull 
 categories: [Writing, Poems]
 tags: [poems]  
 --- 
-```
+will be written
+
+
+<!-- ```
 
 So far from pole to pole.
 
@@ -63,4 +66,4 @@ Ears of bane shall be disproof.
 
 Live we will. 
 
-``` 
+```  -->
