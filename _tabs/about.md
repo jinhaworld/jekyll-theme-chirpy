@@ -22,7 +22,7 @@ Sadly, it's now October, and I have not written as much as I wanted to.  Althoug
 
 Hello dear 
 
-It feels very nice to think that you are actually reading this. It's most likely that I don't know you in real life, but if you do know me, hello and greetings. Otherwise, I can safely assume that you don't know too much about who I am either.  
+It feels very nice to think that someone is actually reading this. It's most likely that I don't know you in real life, but if you do know me, hello and greetings. Otherwise, I can safely assume that you don't know too much about who I am either.  
 
 I guess it's similar to how you expect to learn about someone after reading their blogs, and as the writer, conversely, you expect the readers to want to learn about yourself. 
 
