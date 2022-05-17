@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 # --------------------------
 title: Jinha Kim                        # the main title
 
-tagline: Dubito, ergo cogito, ergo sum   # it will display as the sub-title
+tagline: A flow of life   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
